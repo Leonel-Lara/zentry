@@ -24,6 +24,10 @@ body {
     font-family: "robert-regular";
     src: url("/fonts/robert-regular.woff2") format("woff2");
   }
+  @font-face {
+    font-family: "zentry";
+    src: url("/fonts/zentry-regular.woff2") format("woff2");
+  }
 }
 
 @theme {
@@ -88,7 +92,7 @@ body {
 }
 
 @utility animated-word {
-  @apply special-font-b font-zentry font-black opacity-0;
+  @apply font-zentry font-black opacity-0;
   transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
   transform-origin: 50% 50% -150px !important;
   will-change: opacity, transform;
